@@ -5,4 +5,7 @@ public class PrintCalendar{
 	public static void main(String[] args){
 		
 	}
+	public void mCalendar{
+		GregorianCalendar g = new GregorianCalendar();
+	}
 }
