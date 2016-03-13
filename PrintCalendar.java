@@ -1,7 +1,8 @@
 //U10416005ªL«Ø¦t
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 public class PrintCalendar{
-	
+	public static void main(String[] args){
+		
+	}
 }
