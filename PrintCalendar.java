@@ -19,7 +19,17 @@ public class PrintCalendar{
 		}
 		while (g.get(Calendar.MONTH) == month) {
 			int day = g.get(Calendar.DAY_OF_MONTH);
+			if (day < 10) {
+				System.out.print(" " + day + "\t");
+			} 
+			else {
 				System.out.print("" + day + "\t");
+			}
+			if (week == Calendar.SATURDAY) {
+				System.out.println();
+			}
+			g.add(Calendar.DAY_OF_MONTH, 1);
+			week = g.get(Calendar.DAY_OF_WEEK);
 		}
 	}
 }
